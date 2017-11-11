@@ -1,0 +1,53 @@
+------------admin login---------------------
+http://whitecode.in/demo/kajucontract/index.php/Admin/AdminLogin
+userName,userPassword,token,chatId
+--------------------------------------------
+------------User signup---------------------
+http://whitecode.in/demo/kajucontract/index.php/User/userSignUp
+userName,userEmail,userContact,userPassword
+
+------------Add Supplier---------------------
+http://whitecode.in/demo/kajucontract/index.php/Admin/AddSupplier
+supplierName,supplierEmail,supplierContact,supplierAddress,supplierChatId
+
+------------User Login---------------------
+http://whitecode.in/demo/kajucontract/index.php/User/UserLogin
+userEmail,userPassword,token,isSupplier(0 normal user,1 supplier)
+
+------------Supplier Chatid---------------------
+http://whitecode.in/demo/kajucontract/index.php/Admin/AddChatId
+supplierId,supplierChatId
+
+------------User Chatid---------------------
+http://whitecode.in/demo/kajucontract/index.php/User/AddChatId
+userId,chatId
+
+------------Packages---------------------
+create package--> http://whitecode.in/demo/kajucontract/index.php/Admin/AddPackage
+                  packageName,packageLimit
+                  
+packages list--> http://whitecode.in/demo/kajucontract/index.php/Admin/displayPackages
+
+update package--> http://whitecode.in/demo/kajucontract/index.php/Admin/updatePackage
+                  packageName,packageLimit,packageId
+                  
+         
+------------supplier list--------------------- 
+List->   http://whitecode.in/demo/kajucontract/index.php/Admin/supplierList   
+  
+------------user list--------------------- 
+http://whitecode.in/demo/kajucontract/index.php/Admin/userList
+
+------------admin attach package to user--------------------- 
+http://whitecode.in/demo/kajucontract/index.php/Admin/attachPackage
+userId,packageId
+
+------------update user/supplier--------------------- 
+http://whitecode.in/demo/kajucontract/index.php/User/editUser
+userId,isSupplier,userName,userContact,userAddress(only if supplier).
+
+
+
+
+
+

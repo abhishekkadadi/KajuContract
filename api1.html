@@ -1,0 +1,74 @@
+<html>
+<body>
+------------admin login---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/AdminLogin<br/>
+userName,userPassword,token,chatId<br/>
+--------------------------------------------<br/>
+------------User signup---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/User/userSignUp<br/>
+userName,userEmail,userContact,userPassword<br/>
+
+------------Add Supplier---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/AddSupplier<br/>
+supplierName,supplierEmail,supplierContact,supplierAddress,supplierChatId<br/>
+
+------------User Login---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/User/UserLogin<br/>
+userEmail,userPassword,token,isSupplier(0 normal user,1 supplier)<br/>
+
+------------Supplier Chatid---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/AddChatId<br/>
+supplierId,supplierChatId<br/>
+
+------------User Chatid---------------------<br/>
+http://whitecode.in/demo/kajucontract/index.php/User/AddChatId<br/>
+userId,chatId<br/>
+
+------------Packages---------------------<br/>
+create package--> http://whitecode.in/demo/kajucontract/index.php/Admin/AddPackage<br/>
+                  packageName,packageLimit<br/><br/>
+                  
+packages list--> http://whitecode.in/demo/kajucontract/index.php/Admin/displayPackages<br/><br/>
+
+update package--> http://whitecode.in/demo/kajucontract/index.php/Admin/updatePackage<br/><br/>
+                  packageName,packageLimit,packageId<br/>
+                  
+         
+------------supplier list--------------------- <br/>
+List->   http://whitecode.in/demo/kajucontract/index.php/Admin/supplierList  <br/> 
+  
+------------user list--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/userList<br/>
+
+------------admin attach package to user--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/attachPackage<br/>
+userId,packageId<br/>
+
+------------update user/supplier--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/User/editUser<br/>
+userId,isSupplier,userName,userContact,userAddress(only if supplier).<br/>
+
+
+
+------------set supplier--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/Admin/setSupplier<br/>
+packageId,supplierId.<br/>
+
+
+------------Supplier list according to package--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/User/displayContractors<br/>
+userId<br/>
+
+
+
+------------viewer suppliers--------------------- <br/>
+http://whitecode.in/demo/kajucontract/index.php/User/viewedSuppliers<br/>
+userId,supplierId<br/>
+
+</body>
+
+
+
+
+
+</html>
